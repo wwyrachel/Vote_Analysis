@@ -1,0 +1,25 @@
+Level 1 Question 1
+
+Firstly, I have define the data types of all variables and also initialize all the variable count to zero.
+
+Secondly, I have use a file pointer and the fopen built in function to open and read the file name dataset.txt.
+
+Thirdly, I have use serval for loops to read the data. The first for loop is the read the candidate names, 
+the second for loop is to scan the states and the state vote for calculation.
+
+Fourthly, I have use a while loop with condition that when it is not the end of file, such that the loop 
+will keep accessed if it is not end of file.
+
+Fifthly, in the while loop i have used three if condition sentences and some nested sentences to calculated 
+the vote each candidate get. I have divided that into three parts with respect to the three candidates. 
+Inside each if loop, I have further divided into 6 parts in order to count the votes each candidate get 
+in each state. To calculated the votes I have use a function strstr() in string.h to see if a string is 
+included in a line of the input file. If yes then the counting variabe will be increase by one.
+  
+After geting all the individual votes of each candidate, I will use these number to multiply the state votes 
+and then divided by the number of people in each state such that the total number of votes of each 
+candidate is calculated.
+
+Finally, I have use an if statement will condition if the number of total votes Hil4ry get is larger than
+DOn4ld get then print out "Hil4ry wins!" else print out "DOn4ld wins!".
+

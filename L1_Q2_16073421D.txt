@@ -1,0 +1,14 @@
+Level 1 Question 2
+
+This question is make use of the percentage of the individual vote of each president candidate to 
+create a histogram.
+
+First, I will separate the voting data into 6 parts according to the states. I will make use of the 
+data I have calculated in question 1 to create the histogram. For example, in FL state the votes 
+DOn4ld get is 149, the votes Hil4ry get is 160 and the votes Nameless get is 143. To calculate the 
+percentage, DOn4ld get 27.5% (149/541*100%), Hil4ry get 29.4% (160/541*100%) and Nameless 
+get 26.4% (143/541*100%) so all of them are rounded to 20% . The vote other states are also calculated
+in this method. 
+
+Secondly, I will use scanf function to scan the names of the six states and print them on the chart 
+as the x- axis. 
